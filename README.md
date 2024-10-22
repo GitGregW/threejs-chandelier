@@ -12,6 +12,6 @@ Requirements:
 
 Preview:
 
-<p align="center"><video autoplay width: "605" height: "330">
-<source src="public/preview.mov" type="video/mp4">
-</video></p>
+<video autoplay loop width="605" height="330">
+  <source src="public/preview.mov" />
+</video>
