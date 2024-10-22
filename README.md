@@ -12,6 +12,4 @@ Requirements:
 
 Preview:
 
-<video autoplay loop width="605" height="330">
-  <source src="public/preview.mov" />
-</video>
+https://github.com/user-attachments/assets/64c95fab-ae43-4446-a51f-fc06dca18b41
