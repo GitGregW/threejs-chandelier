@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Chandelier three.js app</title>
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+    <section>
+      <h2>Scroll down</h2>
+    </section>
+    <section class="three__section">
+      <div></div>
+    </section>
+    <section></section>
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+  }
+
+  canvas {
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    outline: none;
+  }
+
+  section {
+    display: block;
+    height: 150vh;
+  }
+
+  .three__section {
+    background-color: rgb(182, 182, 182);
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 12rem;
+    font-size: 4rem;
+  }
+</style>
